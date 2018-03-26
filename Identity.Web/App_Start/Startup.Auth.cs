@@ -9,6 +9,7 @@ using Identity.Core;
 using System.Configuration;
 using Microsoft.Owin.Security.DataProtection;
 
+
 namespace Identity.Web
 {
     public partial class Startup
@@ -61,9 +62,9 @@ namespace Identity.Web
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "214680092613709",
+               appSecret: "86855b7d5fead132386de9d7e879ad2c");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
